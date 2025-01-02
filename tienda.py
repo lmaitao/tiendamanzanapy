@@ -30,6 +30,6 @@ print("cuantas manzanas deseas comprar:")
 manzanas_comprar = int (input())
 print("+++++++++++++++++++++++++++++++++++++++++")
 print("Usted compro: ", manzanas_comprar)
-print("El precio a pagar es de: ", precio_manzana * manzanas_comprar)
+print("El precio a pagar es de: $ ", precio_manzana * manzanas_comprar)
 print("Actualmente quedaron la cantidad de manzanas disponibles: ", manzanas_disponibles - manzanas_comprar)
 
